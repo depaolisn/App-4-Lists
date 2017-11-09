@@ -27,8 +27,6 @@ public class PileOfCards
     }
 
     // Shuffles the deck by rearranging the Card objects in the array.
-    // Uses the same algorithm we discussed for the randomized roll call
-    //  on the first day of class.
     public void shuffle()
     {
         for (int j = 0; j < 52; j++) {  // repeat 52 times...
